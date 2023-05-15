@@ -6,8 +6,8 @@ using namespace std;
 
 
 int main() {
-    int array[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-    std::span span{ array, 10 }; 
+    int array[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
+    std::span span{ array, 11 }; 
     // Iterate over all elements of the span
     for (auto element : span) {
         cout << element << " ";
